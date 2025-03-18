@@ -1,4 +1,6 @@
 ﻿using System;
+using System.IO;
+using System.Linq;
 using System.Threading.Tasks;
 
 class Program
@@ -11,6 +13,8 @@ class Program
 
         string fileAContent = "";
         string fileBContent = "";
+        string fileAName = "";
+        string fileBName = "";
 
         if (choice == "1")
         {
@@ -21,6 +25,8 @@ class Program
 
             fileAContent = FileLoader.LoadFromFile(pathA);
             fileBContent = FileLoader.LoadFromFile(pathB);
+            fileAName = Path.GetFileName(pathA);
+            fileBName = Path.GetFileName(pathB);
         }
         else if (choice == "2")
         {
@@ -31,6 +37,8 @@ class Program
 
             fileAContent = await FileLoader.LoadFromUrlAsync(urlA!);
             fileBContent = await FileLoader.LoadFromUrlAsync(urlB!);
+            fileAName = GetFileNameFromUrl(urlA);
+            fileBName = GetFileNameFromUrl(urlB);
         }
         else
         {
@@ -38,9 +46,15 @@ class Program
             return;
         }
 
-        if (string.IsNullOrEmpty(fileAContent) || string.IsNullOrEmpty(fileBContent))
+        if (string.IsNullOrEmpty(fileAContent))
         {
-            Console.WriteLine("One or both files failed to load. Please check the input and try again.");
+            Console.WriteLine($"File {fileAName} is empty. Please check the input and try again.");
+            return;
+        }
+
+        if (string.IsNullOrEmpty(fileBContent))
+        {
+            Console.WriteLine($"File {fileBName} is empty. Please check the input and try again.");
             return;
         }
 
@@ -50,5 +64,10 @@ class Program
         var comparisonResult = CSVComparer.Compare(parsedA, parsedB);
 
         ReportGenerator.GenerateReport(comparisonResult);
+    }
+
+    private static string GetFileNameFromUrl(string url)
+    {
+        return new Uri(url).Segments.Last();
     }
 }
