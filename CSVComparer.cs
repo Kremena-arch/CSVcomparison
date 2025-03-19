@@ -6,27 +6,45 @@ class CSVComparer
     public static ComparisonResult Compare(List<List<string>> csvA, List<List<string>> csvB)
     {
         var result = new ComparisonResult();
+        result.AreIdentical = true;
+        result.RowCount = Math.Max(csvA.Count, csvB.Count);
 
-        if (csvA.Count != csvB.Count)
+        for (int i = 0; i < result.RowCount; i++)
         {
-            result.Errors.Add($"Row count mismatch: {csvA.Count} <---> {csvB.Count}");
-        }
-
-        int rowCount = Math.Min(csvA.Count, csvB.Count);
-
-        for (int i = 0; i < rowCount; i++)
-        {
-            if (csvA[i].Count != csvB[i].Count)
+            if (i >= csvA.Count)
             {
-                result.Errors.Add($"Row {i + 1}: Column count mismatch ({csvA[i].Count} <---> {csvB[i].Count})");
+                result.Errors.Add($"Row {i + 1}: Missing in first file.");
+                result.AreIdentical = false;
                 continue;
             }
 
-            for (int j = 0; j < csvA[i].Count; j++)
+            if (i >= csvB.Count)
             {
-                if (csvA[i][j] != csvB[i][j])
+                result.Errors.Add($"Row {i + 1}: Missing in second file.");
+                result.AreIdentical = false;
+                continue;
+            }
+
+            var rowA = csvA[i];
+            var rowB = csvB[i];
+
+            if (rowA.Count != rowB.Count)
+            {
+                result.Errors.Add($"Row {i + 1}: Column count mismatch ({rowA.Count} <---> {rowB.Count})");
+                result.AreIdentical = false;
+            }
+
+            int maxColumns = Math.Max(rowA.Count, rowB.Count);
+
+            for (int j = 0; j < maxColumns; j++)
+            {
+                string valueA = j < rowA.Count ? rowA[j] : "MISSING";
+                string valueB = j < rowB.Count ? rowB[j] : "MISSING";
+
+                if (valueA != valueB)
                 {
-                    result.Errors.Add($"Row {i + 1}, Column {j + 1}: '{csvA[i][j]}' <---> '{csvB[i][j]}'"); //≠
+                    result.Errors.Add($" - Row {i + 1}, Column {j + 1}: '{valueA}' <---> '{valueB}'");
+                    result.AreIdentical = false;
                 }
             }
         }
@@ -34,4 +52,3 @@ class CSVComparer
         return result;
     }
 }
-

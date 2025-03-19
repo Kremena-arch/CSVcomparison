@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "D:\\2025-CsvCompare\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{11565D2B-8C5B-417C-AB8B-32AD43A0F7F0}|CsvCompare.csproj|d:\\2025-csvcompare\\fileloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11565D2B-8C5B-417C-AB8B-32AD43A0F7F0}|CsvCompare.csproj|solutionrelative:fileloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{11565D2B-8C5B-417C-AB8B-32AD43A0F7F0}|CsvCompare.csproj|d:\\2025-csvcompare\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11565D2B-8C5B-417C-AB8B-32AD43A0F7F0}|CsvCompare.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11565D2B-8C5B-417C-AB8B-32AD43A0F7F0}|CsvCompare.csproj|d:\\2025-csvcompare\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11565D2B-8C5B-417C-AB8B-32AD43A0F7F0}|CsvCompare.csproj|solutionrelative:logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{11565D2B-8C5B-417C-AB8B-32AD43A0F7F0}|CsvCompare.csproj|d:\\2025-csvcompare\\csvcomparer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11565D2B-8C5B-417C-AB8B-32AD43A0F7F0}|CsvCompare.csproj|solutionrelative:csvcomparer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{11565D2B-8C5B-417C-AB8B-32AD43A0F7F0}|CsvCompare.csproj|d:\\2025-csvcompare\\fileloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11565D2B-8C5B-417C-AB8B-32AD43A0F7F0}|CsvCompare.csproj|solutionrelative:fileloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{11565D2B-8C5B-417C-AB8B-32AD43A0F7F0}|CsvCompare.csproj|d:\\2025-csvcompare\\csvparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11565D2B-8C5B-417C-AB8B-32AD43A0F7F0}|CsvCompare.csproj|solutionrelative:csvparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11565D2B-8C5B-417C-AB8B-32AD43A0F7F0}|CsvCompare.csproj|d:\\2025-csvcompare\\comparisonresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11565D2B-8C5B-417C-AB8B-32AD43A0F7F0}|CsvCompare.csproj|solutionrelative:comparisonresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{11565D2B-8C5B-417C-AB8B-32AD43A0F7F0}|CsvCompare.csproj|d:\\2025-csvcompare\\csvcomparer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11565D2B-8C5B-417C-AB8B-32AD43A0F7F0}|CsvCompare.csproj|solutionrelative:csvcomparer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11565D2B-8C5B-417C-AB8B-32AD43A0F7F0}|CsvCompare.csproj|d:\\2025-csvcompare\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11565D2B-8C5B-417C-AB8B-32AD43A0F7F0}|CsvCompare.csproj|solutionrelative:logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{11565D2B-8C5B-417C-AB8B-32AD43A0F7F0}|CsvCompare.csproj|d:\\2025-csvcompare\\reportgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11565D2B-8C5B-417C-AB8B-32AD43A0F7F0}|CsvCompare.csproj|solutionrelative:reportgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11565D2B-8C5B-417C-AB8B-32AD43A0F7F0}|CsvCompare.csproj|d:\\2025-csvcompare\\comparisonresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11565D2B-8C5B-417C-AB8B-32AD43A0F7F0}|CsvCompare.csproj|solutionrelative:comparisonresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,18 +37,22 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "DockedWidth": 64,
+          "SelectedChildIndex": 7,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Logger.cs",
               "DocumentMoniker": "D:\\2025-CsvCompare\\Logger.cs",
               "RelativeDocumentMoniker": "Logger.cs",
               "ToolTip": "D:\\2025-CsvCompare\\Logger.cs",
               "RelativeToolTip": "Logger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T13:16:39.5Z",
               "EditorCaption": ""
@@ -56,27 +60,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ComparisonResult.cs",
-              "DocumentMoniker": "D:\\2025-CsvCompare\\ComparisonResult.cs",
-              "RelativeDocumentMoniker": "ComparisonResult.cs",
-              "ToolTip": "D:\\2025-CsvCompare\\ComparisonResult.cs",
-              "RelativeToolTip": "ComparisonResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T13:16:33.921Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "ReportGenerator.cs",
               "DocumentMoniker": "D:\\2025-CsvCompare\\ReportGenerator.cs",
               "RelativeDocumentMoniker": "ReportGenerator.cs",
               "ToolTip": "D:\\2025-CsvCompare\\ReportGenerator.cs",
               "RelativeToolTip": "ReportGenerator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T13:16:27.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ComparisonResult.cs",
+              "DocumentMoniker": "D:\\2025-CsvCompare\\ComparisonResult.cs",
+              "RelativeDocumentMoniker": "ComparisonResult.cs",
+              "ToolTip": "D:\\2025-CsvCompare\\ComparisonResult.cs*",
+              "RelativeToolTip": "ComparisonResult.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T13:16:33.921Z",
               "EditorCaption": ""
             },
             {
@@ -85,50 +89,50 @@
               "Title": "CSVComparer.cs",
               "DocumentMoniker": "D:\\2025-CsvCompare\\CSVComparer.cs",
               "RelativeDocumentMoniker": "CSVComparer.cs",
-              "ToolTip": "D:\\2025-CsvCompare\\CSVComparer.cs",
-              "RelativeToolTip": "CSVComparer.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAZAAAAAAAAAA==",
+              "ToolTip": "D:\\2025-CsvCompare\\CSVComparer.cs*",
+              "RelativeToolTip": "CSVComparer.cs*",
+              "ViewState": "AgIAABcAAAAAAAAAAAAUwDQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T13:16:19.361Z",
+              "WhenOpened": "2025-03-19T07:55:16.231Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "CSVParser.cs",
               "DocumentMoniker": "D:\\2025-CsvCompare\\CSVParser.cs",
               "RelativeDocumentMoniker": "CSVParser.cs",
-              "ToolTip": "D:\\2025-CsvCompare\\CSVParser.cs",
-              "RelativeToolTip": "CSVParser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBIAAAAFAAAAAAAAAA==",
+              "ToolTip": "D:\\2025-CsvCompare\\CSVParser.cs*",
+              "RelativeToolTip": "CSVParser.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T13:16:14.561Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FileLoader.cs",
               "DocumentMoniker": "D:\\2025-CsvCompare\\FileLoader.cs",
               "RelativeDocumentMoniker": "FileLoader.cs",
               "ToolTip": "D:\\2025-CsvCompare\\FileLoader.cs",
               "RelativeToolTip": "FileLoader.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T13:16:10.777Z",
+              "WhenOpened": "2025-03-19T07:56:27.537Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\2025-CsvCompare\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\2025-CsvCompare\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAA5AAAAAAAAAA==",
+              "ToolTip": "D:\\2025-CsvCompare\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAADgAAAAAAAAAAAAUwF8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T13:16:03.329Z",
+              "WhenOpened": "2025-03-18T11:50:08.261Z",
               "EditorCaption": ""
             }
           ]
