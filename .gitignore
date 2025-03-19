@@ -4,3 +4,4 @@ obj/
 *.suo
 OTHER/
 INPUT_FILES/
+.vs/
