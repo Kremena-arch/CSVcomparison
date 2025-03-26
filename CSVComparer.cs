@@ -1,4 +1,5 @@
-﻿using System;
+
+using System;
 using System.Collections.Generic;
 
 class CSVComparer
@@ -50,5 +51,44 @@ class CSVComparer
         }
 
         return result;
+    }
+
+    public static List<ComparisonResult> CompareExcel(Dictionary<string, List<List<string>>> excelA, Dictionary<string, List<List<string>>> excelB)
+    {
+        var results = new List<ComparisonResult>();
+
+        foreach (var sheet in excelA.Keys)
+        {
+            var result = new ComparisonResult { SheetName = sheet };
+            if (!excelB.ContainsKey(sheet))
+            {
+                result.Errors.Add($"Sheet '{sheet}' is missing in second file.");
+                result.AreIdentical = false;
+                results.Add(result);
+                continue;
+            }
+
+            var csvA = excelA[sheet];
+            var csvB = excelB[sheet];
+            var comparisonResult = Compare(csvA, csvB);
+            comparisonResult.SheetName = sheet;
+            results.Add(comparisonResult);
+        }
+
+        foreach (var sheet in excelB.Keys)
+        {
+            if (!excelA.ContainsKey(sheet))
+            {
+                var result = new ComparisonResult
+                {
+                    SheetName = sheet,
+                    AreIdentical = false
+                };
+                result.Errors.Add($"Sheet '{sheet}' is missing in first file.");
+                results.Add(result);
+            }
+        }
+
+        return results;
     }
 }
